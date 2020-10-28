@@ -4,4 +4,4 @@ asp.net 动态网页  桂航新闻平台
 
 首页展示：
 ![image](https://github.com/ANewus/NewsSystem/blob/master/readme/main1.png)
-
+![image](https://github.com/ANewus/NewsSystem/blob/master/readme/main2.jpg)
