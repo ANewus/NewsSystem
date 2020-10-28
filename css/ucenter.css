@@ -1,0 +1,59 @@
+body{ padding:0;margin:0;font:12px/1.5 Tahoma,arial,"\5b8b\4f53",sans-serif;background-color:#f5f5f5;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,blockquote,p,table,tr,td{padding:0; margin:0;}
+li{list-style-type:none;}
+input,button,select,textarea{outline:none;resize:none;}
+table {border-collapse:collapse;}
+img{vertical-align:top;border:0;}
+ol,ul{list-style:none;}
+cite,code,em,th,i{font-weight:normal; font-style:normal;}
+a{text-decoration:none; outline:none; color:#333;}
+.z{float:left;}
+.y{float:right;}
+.wp { width:960px; margin:0 auto;}
+.mt10 { margin-top:10px;}
+.mt7 { margin-top:7px;}
+.fff { background-color:#fff;}
+.border { border:1px solid #dedede;-webkit-box-shadow: 1px 2px 1px #e7e7e7;-moz-box-shadow: 1px 2px 1px #e7e7e7;box-shadow: 1px 2px 1px #e7e7e7;}
+.cl {*zoom:1;}
+.cl:after{clear:both;content:".";display:block;margin:0;padding:0;font-size:0;height:0;line-height:0;overflow:hidden;}
+*html{ background-image:url(about:blank);background-attachment:fixed;}
+
+/*×¢²áÒ³Ãæ*/
+.regRight .qqLogin,.tipError,.tipRight,.ucLeftnav div,.exit,.ucTitle h1 div,.nameFun a,.msgStatus,.checkDel{ background:url(../xiaoz_img/ucenterBg.png) no-repeat; display:block;}
+.regMain {height:570px;}
+.regLeft { width:630px; margin-top:25px; padding-bottom:25px; border-right:1px solid #ddd;}
+.regLeft h1 { font:28px/1.5 "microsoft yahei"; padding:0 0 40px 35px;}
+.spaceOpt td { height:30px;}
+.inText { width:135px; padding-right:10px; text-align:right; color:#777; height:37px; font:14px/37px "microsoft yahei";}
+.inInput { width:250px;}
+.inInput input { height:37px; border:1px solid #dcdcdc; width:240px; font:14px/37px "microsoft yahei"; border-radius:4px; padding:0 5px;}
+.inputTip { width:220px; height:37px;}
+.keyInput input { width:110px;margin-right:10px;}
+.inSubmit input,.regRight .loginBtn { width:130px; height:40px; font:22px/40px "microsoft yahei"; color:#fff; background-color:#0af; border:0; border-radius:4px;cursor:pointer;}
+.tipError,.tipRight { height:37px; margin-left:20px;padding-left:20px; color:#ff8723; font-weight:700;line-height:37px;}
+.tipRight { background-position:-161px -317px;}
+.tipError { background-position:-161px -356px;}
+.regRight { width:270px; padding-top:90px; font:14px/50px "microsoft yahei";}
+.regRight .loginBtn{ display:block; text-align:center; margin-bottom:60px;}
+.regRight .qqLogin {width:175px; height:33px; overflow:hidden; line-height:100px; background-position:0 0;}
+/*µÇÂ¼Ò³Ãæ*/
+.loginMain { height:440px;}
+.inSpace { height:20px;}
+.loginOpt label { height:20px; display:block; cursor:pointer; float:left;}
+.loginOpt input { float:left; padding:0; margin:4px 5px 0 0;height:13px; width:13px;}
+.loginOpt span { display:block; float:left; color:#666; line-height:20px;}
+/*qq logined*/
+.qqBind {line-height:36px;}
+.qqBind a {margin-left: 10px;}
+.qqBind span {color: #f00;font-family: microsoft yahei;}
+
+/*Ò³½Å*/
+#footer { background:url(../images/footBg.gif) #f0f0f0 left top repeat-x; margin-top:10px; padding-top:10px; clear:both;}
+.foot,.foot a { color:#83868d; text-align:center; line-height:30px;}
+.indexFooter { text-align:left;}
+.indexFooter p{ line-height:22px;}
+.xzx {
+	margin: 150px;
+}
+
+

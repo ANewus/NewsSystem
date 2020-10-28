@@ -1,0 +1,105 @@
+/*---------- ÂÖ²¥Í¼ ---------*/
+.slides.{ position:absolute; width:100%; height:100%; background:#fff url("../sui_Image/loading.gif"/*tpa=../sui_Image/loading.gif*/) center no-repeat; z-index:9;}
+.slidesjs-pagination {
+      margin: 7px auto;
+      width: 120px;
+      left: 10%;
+      list-style: none;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      z-index: 111;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin-left:5px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 14px;
+      height: 4px;
+      background-color:#ccc;
+      color:#ccc;
+      background-position: 0 0;
+      float: left;
+      font-size:10px ;
+     overflow: hidden;
+     
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+       background-color:#08c;
+       color:#08c;
+    }
+
+    .slidesjs-pagination li a:hover {
+       background-color:#08c;
+       color:#08c;
+    }
+
+    #slides a:link,
+    #slides a:visited {
+     
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #fff;
+	  text-decoration:none;
+	  opacity: 0.6;
+    filter: alpha(opacity=60);
+    }
+.slidesjs-slide{width: 320px;height:227px ;}
+.banner_home{width: 320px;height: 227px;margin: 0 auto;}
+.banner_home  p{    height: 35px;
+    background-color: #000;
+    opacity: 0.4;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    line-height: 37px;
+    text-align: center;
+    bottom: 0px;
+    
+    font-size:14px;
+    }
+
+.slidesjs-previous{    
+	display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../sui_Image/untitled.png"/*tpa=../sui_Image/untitled.png*/) no-repeat 50% #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    border-radius: 50%;
+	position: absolute;
+    
+	top: 97.5px;
+	z-index: 100000;
+	left: 10px;
+	color:#fff;
+	font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+	}
+.slidesjs-next{
+	display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../sui_Image/arrow-ico-left.png"/*tpa=../sui_Image/arrow-ico-left.png*/) no-repeat 50% #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    border-radius: 50%;
+	position: absolute;
+    
+	top: 97.5px;
+	z-index: 100000;
+	left: 277px;
+	color:#fff;
+	font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+	}

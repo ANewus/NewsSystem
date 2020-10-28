@@ -1,0 +1,92 @@
+﻿.lewei_tts dt h2  {
+	font-weight: 500;
+
+	padding-left: 10px;
+}
+
+.lewei_one li {
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	color:#999;
+	font-family:Arial,"\5b8b\4f53","微软雅黑",arial,SimSun,helvetica,sans-serif;
+	font-size: 14px;
+}
+.lewei_one li i{
+	font-family:"\5b8b\4f53";
+	color:#999;
+	line-height:22px;
+
+	font-size: 14px;
+
+}
+.time{float:right;margin-left:15px;color:#999; width:112px;
+}
+.lewei_two li {
+	font-family:Arial,"\5b8b\4f53","微软雅黑",arial,SimSun,helvetica,sans-serif;
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+	font-size: 14px;
+color:#999;
+
+
+	
+}
+
+.lewei_imgtxt {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+	
+	cursor: pointer;
+}
+
+#scrolltop a {
+	display: block;
+	width: 50px;
+	height: 48px;
+	padding: 0;
+	line-height: 48px;
+	text-align: center;
+	color: #787878;
+	text-decoration: none;
+	
+	border-top: 0px #cdcdcd solid;
+}
+
+.lewei_tpp p {
+	position: relative;
+	top: -25px;
+	font-size: 14px;
+font-family:Arial,"\5b8b\4f53","微软雅黑",arial,SimSun,helvetica,sans-serif;
+	color: #fff;
+	height: 25px;
+	line-height: 22px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.lewei_tq li .lewei_bts {
+	width: 266px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 10px;
+	text-align: left;
+	color: #fff;
+font-family:Arial,"\5b8b\4f53","微软雅黑",arial,SimSun,helvetica,sans-serif;
+	cursor: pointer;
+	font-size: 14px;
+	display: block;
+	overflow: hidden;
+	height: 30px;
+
+}

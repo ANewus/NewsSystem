@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font:12px tahoma,'\5b8b\4f53',sans-serif;font-family:"Microsoft YaHei";font-size:12px;}
+*{margin:0px; padding:0px;}
+ul li{list-style:none;}
+li{list-style:none;}
+img{border:none;}
+a{color:#333; text-decoration:none;}
+a:hover{color:#00a6a3;}
+em{font-style:normal;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both; height:0px; font-size:0px; visibility:hidden;display:block;content:" ";}
+
+.pwd_main{ width:100%; height:auto; background:#72ece7; margin-top:307px; padding:40px 0;}
+.pwd_box{width:284px; height:auto; margin:0 auto;}
+
+.pwd_box .input{width:270px; padding:9px 4px 9px 10px; height:24px; line-height:24px; border:none; background:url(../img/pwd_bg.png) no-repeat; outline:medium none; font-size:14px; color:#b4b5b5; margin-bottom:25px; overflow:hidden;}
+.pwd_box .button{width:284px; height:46px; line-height:46px;border:none; background:url(../img/pwd_bg.png) no-repeat 0 -49px; outline:medium none; color:#fff; font-size:18px; font-weight:bold;cursor:pointer; margin-bottom:25px;}
+
+.pwd_box .menu{height:18px; line-height:18px;}
+.pwd_box .menu a{ background:url(../img/pwd_bg.png) no-repeat; color:#13aaa3; font-size:16px; font-weight:bold;}
+.pwd_box .menu a.menu_l{float:left; background-position:-263px -160px; padding-left:25px;}
+.pwd_box .menu a.menu_r{float:right; background-position:-200px -210px; padding-right:25px;}
+.pwd_box .menu a:hover{text-decoration:underline;}
+
+.pwd_box .mesg{ display:none;height:40px; line-height:40px; width:254px; padding-left:30px; background:url(../img/pwd_bg.png) no-repeat 0 -105px; color:#fff; font-size:14px; margin-bottom:10px; overflow:hidden;}
+
+.succeed_box{width:224px; height:auto; margin:0 auto;}
+.succeed_box .icon{width:90px; height:90px; margin:0 auto 15px; background:url(../img/pwd_bg.png) no-repeat -1px -209px;}
+.succeed_box .xx{font-size:16px; font-weight:bold; color:#276461; line-height:25px; text-align:center;}
+.succeed_box .xx a{color:#276461;}
+.succeed_box .bnt{width:224px; height:46px; line-height:46px; background:url(../img/pwd_bg.png) no-repeat 0 -157px; margin-top:15px; font-size:18px; font-weight:bold;}
+.succeed_box .bnt a{display:inline-block; height:46px; color:#fff; padding-left:60px; width:160px;}
+
+.footer{ width:100%; margin:0 auto;height:40px; clear:both; margin-top:10px; padding:15px 0px 20px;}
+.footer_ul{width:1000px;text-align:center; margin:0 auto;}
+.footer_ul a{color:#ddfbfa;}
+.footer_ul a:hover{color:#ddfbfa; text-decoration:underline;}
+.footer_ul span{ padding:0 5px 0 10px; color:#ddfbfa; display:inline-block;}
+
+.footer p{clear:both;color:#ddfbfa;text-align:center; padding-top:8px;}
+.footer p a{color:#ddfbfa;}
+/*------------------POPUPS------------------------*/
+#fade,#fade2,#fade3 {display: none;background:#000;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity: 0.6;position: fixed; left: 0; top: 0; z-index: 10;width: 100%; height: 100%;z-index: 999; _background:none; _height:0px;}
+#popup,#popup2{position:fixed;width:660px; height:auto;left:45%;top:35%;margin-left:-200px;z-index:1000;background-color:#fff; border:1px solid #e5e5e5; border-radius:5px; padding:20px 0; _position:absolute;}
+#fade3 {display:block;}
+#popup3{position:fixed; height:auto;z-index:2000;background-color:#fff; border:3px solid #54cbc6; border-radius:4px; padding:10px 30px; color:#20c1ba; font-size:14px; font-weight:bold; left:48%;}
+
+
+#popup #close{ display:inline-block; width:42px; height:42px; background:url(../skin_img/icon.png) no-repeat -770px -49px; position:absolute; right:-13px; top:-29px; cursor:pointer;}
+#popup #close:hover{background-position:-649px -221px;}
+
+#popup  #right{float:right; width:315px; height:360px; position:relative;}
+#popup  #right .div1{height:28px; line-height:28px; margin-left:30px;}
+#popup  #right .div1 span{display:inline-block; float:left; font-size:14px; color:#959696;}
+#popup  #right .div1 a{float:left; display:inline-block; width:28px; height:28px; background:url(../skin_img/icon.png) no-repeat -820px -56px;}
+#popup #right .div1 a:hover{background-position:-771px -189px}
+#popup  #right .div2{margin:55px 0 0 18px;}
+#popup  #right .div2 img{ height:177px; width:279px;}
+
+#l_login,#l_reg{ float:left; width:285px; margin-left:25px; min-height:360px; padding-right:33px;border-right:1px solid #dfdfdf; overflow:hidden; _height:360px; _margin-left:12px;}
+#popup #title{ height:30px; line-height:30px;}
+#popup #title span{color:#14b0a9; font-size:22px; font-weight:bold;}
+#popup #title a{ display:inline-block; float:right; font-size:16px; color:#959696; width:65px;  height:30px; overflow:hidden; _width:75px;}
+#popup #title a em{background:url(../skin_img/icon.png) no-repeat -592px -62px; height:25px; width:25px; display:inline-block; float:right; margin:3px 0 0 6px; cursor:pointer; _display:inline;}
+#popup #title a:hover em{background-position:-740px -189px;}
+
+#popup .main_box{ margin-top:20px; font-size:14px; color:#b4b5b5;}
+#popup input{ width:275px; padding:9px 0 9px 8px;height:24px; line-height:24px; background:#fff; border:1px solid #cecece; border-radius:3px; outline:medium none; margin:10px 0; color:#333;}
+
+#l_reg input{ margin:7px 0;}
+#popup input.button{height:46px; width:277px; background:#20c1ba; padding:0; text-align:center; border:none; width:285px; font-size:20px; color:#fff; font-weight:bold; cursor:pointer;}
+#popup input.button:hover{background:#2accc5;}
+
+#popup .pwd{margin:8px 0 20px 0;height:20px; line-height:20px; overflow:hidden;}
+#popup .remember{width: 13px;height: 13px;margin:3px 5px 0 0px;vertical-align: -2px; border:none;+vertical-align:3px; padding:0 0 0 0;}
+#popup .pwd a{float:right; color:#14b0a9;}
+#popup .pwd a:hover{text-decoration:underline;}
+
+#popup .mesg{height:20px; line-height:20px; color:#ff747e; padding-left:10px; overflow:hidden;}
+#popup .mesg a{color:#14b0a9;}
+
+#popup .yzm_zc{ width:285px; height:58px;}
+
+#popup .yzm_zc input{ width:86px; float:left;}
+#popup .yzm_zc img{float:left; margin:15px 0 0 6px; cursor:pointer;}
+#popup .yzm_zc .sxyzm{float:left; line-height:58px; margin-left:8px; cursor:pointer;}
+/*------------------POPUPS  END------------------------*/

@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>用户中心</title>
+<link rel="stylesheet" href="css/Style3.css">
+<link rel="stylesheet" href="css/Style2.css">
+<link rel="stylesheet" href="css/Style1.css">
+<link rel="stylesheet" href="css/Style4.css">
+<link rel="stylesheet" href="css/Style5.css">
+<script src="js/JScript.js"></script>
+
+<link rel='stylesheet' href="css/Style6.css">
+<link rel="stylesheet" href="css/Style7.css">
+</head>
+<body>
+	<nav id="menu" class="menu">
+		<button class="menu__handle"><span>葫芦</span></button>
+		<div class="menu__inner">
+			<ul>
+				<li><a href="main.aspx" target="_blank">首页</a></li>
+                <li><a href="liaotianshi.aspx" target="if1">聊天室</a></li>
+                                <li><a href="yhfk.aspx" target="if1">用户留言</a></li>
+                                <li><a href="yhckly.aspx" target="if1">编辑留言</a></li>
+                                <li><a href="yhtg.aspx" target="if1">用户投稿</a></li>
+                                <li><a href="yhcktg.aspx" target="if1">编辑投稿</a></li>
+                                <li><a href="yhxgxx.aspx" target="if1">修改信息</a></li>
+                                <li><a href="yhxgmm.aspx" target="if1">修改密码</a></li>
+                                <li><a href="zhmm.aspx" target="if1">找回密码</a></li>
+                                <li><a href="tuichu.aspx">退出</a></li>
+
+			</ul>
+		</div>
+		<div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410" data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
+			<svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+			<path fill="none" d="M300-10c0,0,0,164,0,410c0,232,0,410,0,410" />
+			</svg>
+		</div>
+	</nav>
+	<div class="main">
+		<header class="codrops-header"></header>
+	</div>
+
+	<div id="particles-js"></div>
+	<div class="box">
+		<iframe style="height: 1020px; width: 1620px; margin-right: 99px;" 
+                        src="huanyingyh.aspx" name="if1" frameBorder="0"></iframe>
+	</div>
+
+
+	<div class="htmleaf-container">
+		<div id='ss_menu'>
+			<div>
+				<i class="fa fa-qq"></i>
+			</div>
+			<div>
+				<i class="fa fa-weibo"></i>
+			</div>
+			<div>
+				<i class="fa fa-weixin"></i>
+			</div>
+			<div>
+				<i class="fa fa-renren"></i>
+			</div>
+			<div class='menu1'>
+				<div class='share' id='ss_toggle' data-rot='180'>
+					<div class='circle'></div>
+					<div class='bar'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/JScript2.js"></script>
+<script src="js/JScript3.js"></script>
+<script src="js/JScript4.js"></script>
+<script src="js/JScript5.js"></script>
+<script>
+	(function() {
+		$(".fa-qq").click(function(){
+		    window.open("https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://localhost:22360/%E8%91%AB%E8%8A%A6/index.html");
+		})
+		$(".fa-weibo").click(function(){
+		    window.open("http://service.weibo.com/share/share.php?url=http://localhost:22360/%E8%91%AB%E8%8A%A6/index.html");
+		})
+		$(".fa-renren").click(function(){
+		    window.open("http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:22360/%E8%91%AB%E8%8A%A6/index.html");
+		})
+		$(".fa-weixin").click(function(){
+		    window.open("http://zixuephp.net/inc/qrcode_img.php?url=http://localhost:22360/%E8%91%AB%E8%8A%A6/index.html'");
+		})
+		function SVGMenu( el, options ) {
+			this.el = el;
+			this.init();
+		}
+
+		SVGMenu.prototype.init = function() {
+			this.trigger = this.el.querySelector( 'button.menu__handle' );
+			this.shapeEl = this.el.querySelector( 'div.morph-shape' );
+
+			var s = Snap( this.shapeEl.querySelector( 'svg' ) );
+			this.pathEl = s.select( 'path' );
+			this.paths = {
+				reset : this.pathEl.attr( 'd' ),
+				open : this.shapeEl.getAttribute( 'data-morph-open' ),
+				close : this.shapeEl.getAttribute( 'data-morph-close' )
+			};
+
+			this.isOpen = false;
+
+			this.initEvents();
+		};
+
+		SVGMenu.prototype.initEvents = function() {
+			this.trigger.addEventListener( 'click', this.toggle.bind(this) );
+		};
+
+		SVGMenu.prototype.toggle = function() {
+			var self = this;
+
+			if( this.isOpen ) {
+				classie.remove( self.el, 'menu--anim' );
+				setTimeout( function() { classie.remove( self.el, 'menu--open' );	}, 250 );
+			}
+			else {
+				classie.add( self.el, 'menu--anim' );
+				setTimeout( function() { classie.add( self.el, 'menu--open' );	}, 250 );
+			}
+			this.pathEl.stop().animate( { 'path' : this.isOpen ? this.paths.close : this.paths.open }, 350, mina.easeout, function() {
+				self.pathEl.stop().animate( { 'path' : self.paths.reset }, 800, mina.elastic );
+			} );
+			
+			this.isOpen = !this.isOpen;
+		};
+
+		new SVGMenu( document.getElementById( 'menu' ) );
+
+		$.ajax({
+		    url: "https://v1.hitokoto.cn",
+		    dataType: "json",
+		    async:false,
+		    success:function(data){
+		        // $("p").append(data + "<br />");
+		        $('#word').text(data.hitokoto);
+		        $('#author').text("— " + data.creator);
+		        console.log(data);
+		    }
+		});
+	})();
+
+$(document).ready(function (ev) {
+    var toggle = $('#ss_toggle');
+    var menu = $('#ss_menu');
+    var rot;
+    $('#ss_toggle').on('click', function (ev) {
+        rot = parseInt($(this).data('rot')) - 180;
+        menu.css('transform', 'rotate(' + rot + 'deg)');
+        menu.css('webkitTransform', 'rotate(' + rot + 'deg)');
+        if (rot / 180 % 2 == 0) {
+            toggle.parent().addClass('ss_active');
+            toggle.addClass('close');
+        } else {
+            toggle.parent().removeClass('ss_active');
+            toggle.removeClass('close');
+        }
+        $(this).data('rot', rot);
+    });
+    menu.on('transitionend webkitTransitionEnd oTransitionEnd', function () {
+        if (rot / 180 % 2 == 0) {
+            $('#ss_menu div i').addClass('ss_animate');
+        } else {
+            $('#ss_menu div i').removeClass('ss_animate');
+        }
+    });
+});
+</script>
+</html>

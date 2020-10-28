@@ -1,0 +1,2146 @@
+@charset "gb2312";
+	/*** *	Item: uu_shw Style (QQ:191670709) *	Copyright: www.uu2018.com *	Author: YouYou(QQ:191670709) 2016.3 **/
+	.site-nav {
+	margin-bottom:15px;
+}
+.site-nav .site-nav-bd {
+	width:1099px;
+	height:42px;
+	margin:0 auto;
+}
+.site-nav .hr {
+	margin-bottom:0;
+	border-top:1px solid #f2f2f2;
+	border-bottom:1px solid #dad5d5;
+	height:0px;
+	font-size:0;
+}
+.site-nav .site-nav-bd-l {
+	float:left;
+	*display:inline;
+	color:#999;
+	height:42px;
+	line-height:42px
+}
+.site-nav .site-nav-bd-l b {
+	font-weight:400;
+	color:#d40000;
+}
+.site-nav .site-nav-bd-r {
+	float:right;
+	*display:inline;
+	margin:14px 10px 0 0;
+}
+.site-nav .site-nav-bd-r .sbtn {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	padding:4px 12px;
+	color:#777;
+	background-color:#f1efef;
+	border-bottom:1px solid #d3d3d3;
+	border-radius:3px;
+}
+.site-nav .site-nav-bd-r .sbtn:hover {
+	color:#fff;
+	text-decoration:none;
+	background-color:#d3d3d3;
+}
+.site-nav .site-nav-bd-r .login-btn {
+	color:#fff;
+	background-color:#106caa;
+	border-color:#0b5587;
+}
+.site-nav .site-nav-bd-r .login-btn:hover {
+	background-color:#0b5587;
+}
+.site-nav .site-nav-bd-r .reg-btn {
+	}
+.site-nav .site-nav-bd-r.loginin-model {
+	display:none;
+	position:relative;
+	z-index:1;
+	top:2px;
+	height:40px;
+	line-height:40px;
+	margin-top:0;
+	padding:0 10px;
+	border:1px solid #f2f2f2;
+	border-width:0 1px 2px;
+	border-bottom-color:#036fa4;
+}
+.site-nav .site-nav-bd-r.loginin-model img {
+	vertical-align:middle
+}
+.site-nav .site-nav-bd-r.loginin-model a {
+	color:#444;
+}
+.site-nav .site-nav-bd-r.loginin-model .exit-btn {
+	margin-left:10px;
+	color:#d80000;
+}
+.head-wrap,.main-wrap {
+	position:relative;
+	z-index:2;
+	width:1099px;
+	margin:0 auto;
+}
+.head {
+	margin-bottom:10px;
+}
+.head .head-hd {
+	margin:0 10px 12px;
+}
+.head .head-hd .logo {
+	float:left;
+	width:180px;
+	height:60px;
+	margin-right:30px;
+}
+.head .head-hd .logo img {
+	width:180px;
+	height:60px;
+}
+.head .head-hd .logo {float:left;width:180px;height:70px;margin-right:10px;background:url(../xiaoyewl_Image/logo.png) no-repeat;}
+.head .head-hd .search-wrap {
+	float:left;
+	width:271px;
+	margin-top:15px;
+	margin-right:18px;
+	font-size:0;
+}
+.head .head-hd .search-wrap .input {
+	width:179px;
+	height:32px;
+	line-height:32px;
+	margin-right:3px;
+	border:1px solid #cdcdcd;
+	padding:0 10px;
+	font-size:12px;
+	color:#aaa;
+}
+.head .head-hd .search-wrap .sbtn {
+	width:65px;
+	height:34px;
+	line-height:34px;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	background-color:#2888b7;
+	border:none;
+	border-bottom:1px solid #036fa4;
+	cursor:pointer;
+	border-radius:3px;
+	vertical-align:0;
+}
+_::-moz-range-track,body:last-child .head .head-hd .search-wrap .sbtn {
+	vertical-align:-1px;
+}
+.head .head-hd .search-wrap .sbtn:hover {
+	background-color:#036fa4;
+}
+.head .head-hd .hot-word {
+	float:left;
+	width:230px;
+	padding-left:40px;
+	margin-top:15px;
+}
+.head .head-hd .hot-word dt {
+	float:left;
+	margin-left:-40px;
+	color:#d30909;
+	font-weight:700;
+}
+.head .head-hd .hot-word dd {
+	}
+.head .head-hd .hot-word a {
+	color:#106cab;
+	margin-right:10px;
+}
+.head .head-hd .iqshwad-div {
+	float:right;
+}
+.head .nav-fixed-wrap {
+	}
+.head .nav-fixed-wrap.fixed {
+	left:0;
+	width:100%;
+	background-color:#fff;
+	padding:8px 0;
+	box-shadow:0 2px 2px rgba(0,0,0,0.19);
+	-webkit-animation:fadeInDown 0.3s ease-out;
+	animation:fadeInDown 0.3s ease-out;
+}
+.head .nav-fixed-wrap.fixed .nav-wrap {
+	margin:0 auto;
+}
+.head .nav-wrap {
+	width:1099px;
+	background-color:#2888b7;
+}
+.head .nav-wrap li {
+	float:left;
+	position:relative;
+	z-index:10;
+}
+.head .nav-wrap .last {
+	float:right;
+}
+.head .nav-wrap .last a {
+	background:url(../xiaoyewl_Image/head-menu-nav-last-ico.png) no-repeat 23px 47% #036fa4;
+	padding:0 23px 0 43px;
+	font-weight:700;
+}
+.head .nav-wrap a {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:42px;
+	line-height:42px;
+	padding:0 15px;
+	color:#fff;
+}
+.head .nav-wrap a:hover,.head .nav-wrap .hover a {
+
+	text-decoration:none;
+	background-color:#036fa4;
+}
+.head .nav-wrap .sublist {
+	display:none;
+	position:absolute;
+	z-index:2;
+	left:0;
+	top:100%;
+	border:1px solid #ccc;
+	padding:7px;
+	background-color:#fff;
+}
+.head .nav-wrap .on .sublist {
+	display:block;
+}
+.head .nav-wrap .sublist li {
+	float:none;
+	padding-bottom:7px;
+	border-bottom:1px solid #e5e5e5;
+	margin-bottom:7px;
+}
+.head .nav-wrap .sublist a {
+	width:125px;
+	height:29px;
+	line-height:29px;
+	padding:0 10px;
+	color:#06557c;
+	background-color:#fff;
+}
+.head .nav-wrap .sublist a:hover {
+	color:#fff;
+	background-color:#06557c;
+}
+.head .nav-wrap .sublist li:last-child,.head .nav-wrap .sublist .last {
+	padding-bottom:0;
+	margin-bottom:0;
+	border-bottom:none;
+}
+.head .nav-wrap .last .sublist {
+	left:auto;
+	right:0;
+}
+.head .nav-wrap .last .sublist a {
+	font-weight:400;
+	background-image:none;
+}
+.head .nav-wrap .last .sublist a:hover {
+	}
+.footer-wrap {
+	background-color:#202020;
+	padding:30px 0 35px;
+}
+.footer {
+	width:1099px;
+	margin:0 auto;
+	background-color:#202020;
+}
+.footer.index {
+	}
+.footer.index .intro {
+	margin-bottom:30px;
+}
+.footer .intro {
+	}
+.footer .intro .fl {
+	float:left;
+	width:550px;
+}
+.footer .intro .fl p {
+	color:#666;
+	margin-top:15px;
+}
+.footer .intro .fl a {
+	color:#fff;
+}
+.footer .intro .fr {
+	position:relative;
+	z-index:1;
+	float:right;
+	width:322px;
+	height:71px;
+	background:url(../xiaoyewl_Image/footer-intro-fr-bg.png);
+}
+.footer .intro .fr a {
+	position:absolute;
+	z-index:2;
+	left:118px;
+	font-family:arial;
+	color:#d3d4d5;
+}
+.footer .intro .fr .qq {
+	top:16px;
+}
+.footer .intro .fr .email {
+	top:38px;
+}
+.footer .link {
+	padding:15px 25px;
+	background-color:#2f2f2f;
+}
+.footer .link .tit {
+	float:left;
+	font-size:14px;
+	color:#fff;
+}
+.footer .link .list {
+	margin-top:2px;
+	padding-left:65px;
+}
+.footer .link .list li {
+	display:inline;
+	margin-right:30px;
+}
+.footer .link .list a {
+	color:#898484;
+	margin-right:8px;
+}
+.index-screen-hd {
+	margin-bottom:20px;
+}
+.index-screen-hd .screen-left {
+	float:left;
+	width:320px;
+}
+.index-screen-hd .promo-wrap {
+	height:244px;
+	overflow:hidden;
+}
+.index-screen-hd .screen-right {
+	float:right;
+	width:760px;
+}
+.index-screen-hd .iqshwad-div {
+	padding-bottom:15px;
+	border-bottom:1px solid #eee;
+	margin-bottom:15px;
+}
+.index-screen-hd .recommend-list {
+	margin-bottom:-7px;
+	overflow:hidden;
+}
+.index-screen-hd .recommend-list li,.cat-wrap .news-comm li,.page-content-sidebar .news-comm .list li,.main-article .relatedarticle-div .news-comm li {
+	float:left;
+	width:380px;
+	height:18px;
+	line-height:18px;
+	margin-bottom:7px;
+	overflow:hidden;
+}
+.index-screen-hd .recommend-list a,.cat-wrap .news-comm a,.page-content-sidebar .news-comm .list a,.main-article .relatedarticle-div .news-comm a,.cat-container .news-comm-wrap li a {
+	font-family:Arial,"\5b8b\4f53",sans-serif;
+	color:#444;
+}
+.index-screen-hd .recommend-list a,.cat-wrap .news-comm a,.cat-container .news-comm-wrap li a {
+	color:#135E93;
+}
+.index-screen-hd .recommend-list a:hover,.cat-wrap .news-comm a:hover,.page-content-sidebar .news-comm .list a:hover,.main-article .relatedarticle-div .news-comm a:hover {
+	color:#ba2636;
+}
+.index-screen-hd .recommend-list i,.cat-wrap .news-comm i,.page-content-sidebar .news-comm .list i,.main-article .relatedarticle-div .news-comm i {
+	font-family:"\5b8b\4f53";
+	font-size:14px;
+	color:#999;
+}
+.w-banner-ad {
+	width:100%;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.main-wrap {
+	z-index:1;
+    top: 0px;
+    left: 0px;
+}
+.iqshwad-div table {
+	border-bottom:#eaeaea 1px solid;
+	border-left:#eaeaea 1px solid;
+	border-top:#eaeaea 1px solid;
+	border-right:#eaeaea 1px solid;
+}
+.iqshwad-div td {
+	padding-right:3px;
+	padding-left:3px;
+	padding-bottom:3px;
+	padding-top:3px;
+	text-align:center;
+}
+.w380 {
+	width:375px;
+}
+.cat-wrap {
+	margin-bottom:20px;
+}
+.cat-wrap .cat-container {
+	float:left;
+	width:719px;
+}
+.cat-container ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ad_ggfb.aspx.cs" Inherits="Ad_ggfb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>发布文章</title>
+    <link href="css/style10.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="content_main">
+	<div id="content_title"> </div>
+	<div id="content_body">
+		<div id="right">
+			<div class="right_title">
+				<h2>发布公告</h2>
+			</div>
+			<div class="right_body">
+				<table class="common_table">
+					<form id="form1" runat="server">
+						<tr>
+							<td width="80" align="center">标题</td>
+							<td>
+                                <asp:TextBox ID="TextBox1" runat="server" class="form_text" Height="30px" 
+                                    Width="517px"></asp:TextBox>
+							</td>
+						</tr>
+                        <tr>
+							<td align="center">内容</td>
+							<td>
+                                <asp:TextBox ID="TextBox2" runat="server" class="form_text" Height="230px" 
+                                    TextMode="MultiLine" Width="516px"></asp:TextBox>
+							&nbsp;</td>
+						</tr>
+                        
+							<td align="center">&nbsp;</td>
+							<td>
+				<asp:Button ID="Button1" runat="server" Text="确认发布" class="form_submit" 
+                                    style="background:url(img/submit_button.jpg) no-repeat;" 
+                                    onclick="Button1_Click" />
+							</td>
+						</tr>
+					</form>
+				</table>
+			</div>
+			<div class="right_bottom"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="content_bottom"></div>
+</div>
+</body>
+</html>
+                                                                                                                                                                                                                                   9;
+	background-color:#fff;
+	text-align:center;
+}
+.cat-container .news-comm-page .prev {
+	margin-right:5px;
+}
+.cat-container .news-comm-page .next {
+	}
+.cat-container .soft-comm-wrap {
+	}
+.cat-container .soft-comm {
+	margin-bottom:4px;
+}
+.cat-container .soft-comm dt {
+	}
+.cat-container .soft-comm dd {
+	padding-left:205px;
+}
+.cat-container .soft-comm .tit {
+	font-size:18px;
+}
+.cat-container .soft-comm .tit a {
+	color:#0b68a9;
+}
+.cat-container .soft-comm .meta {
+	color:#858585;
+}
+.cat-container .soft-comm .img {
+	float:left;
+	*display:inline;
+	margin-left:-205px;
+}
+.cat-container .soft-comm .intro {
+	color:#666;
+}
+.cat-container .soft-comm .con {
+	height:82px;
+	line-height:1.7;
+	overflow:hidden;
+}
+.cat-container .soft-comm .btn-wrap {
+	margin-top:17px;
+	overflow:hidden;
+}
+.cat-container .soft-comm .btn-wrap .txt {
+	color:#999;
+	vertical-align:-8px;
+}
+.cat-container .soft-comm .btn-wrap .txt em {
+	color:#0b68a9;
+	border-bottom:1px solid #0b68a9;
+}
+.cat-container .soft-comm .btn-wrap .down-btn {
+	float:right;
+	width:113px;
+	height:36px;
+	background:url(../xiaoyewl_Image/soft-comm-down-btn.png);
+	-moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+.cat-container .soft-comm .btn-wrap .down-btn:hover {
+	background-position:0 -36px;
+}
+.cat-container .photo-comm-wrap {
+	margin:0 -24px -20px 0;
+	overflow:hidden;
+}
+.cat-container .photo-comm {
+	}
+.cat-container .photo-comm li {
+	float:left;
+	width:164px;
+	height:164px;
+	margin:0 21px 20px 0;
+	list-style:none;
+}
+.cat-container .photo-comm a {
+	}
+.cat-container .photo-comm img {
+	display:block;
+}
+.cat-wrap .cat-sidebar {
+	float:right;
+	width:360px;
+}
+.cat-sidebar .title,.main-article .thinklike-div .title,.main-article .relatedarticle-div .title {
+	padding:5px 10px;
+	border-top:2px solid #206f96;
+	margin-bottom:12px;
+	background-color:#f4f4f4;
+}
+.cat-sidebar .title h2,.main-article .thinklike-div .title h3,.main-article .relatedarticle-div .title h3 {
+	font-size:14px;
+	color:#333;
+}
+.cat-sidebar .title h2 a {
+	color:#333;
+}
+.cat-sidebar .recommend-dl {
+	padding-bottom:20px;
+	border-bottom:1px solid #e5e5e5;
+}
+.cat-sidebar .recommend-dl dt {
+	float:left;
+}
+.cat-sidebar .recommend-dl img {
+	display:block;
+}
+.cat-sidebar .recommend-dl dd {
+	padding-left:145px;
+}
+.cat-sidebar .recommend-dl .tit {
+	display:block;
+	height:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	overflow:hidden;
+	color:#000;
+}
+.cat-sidebar .recommend-dl .tit:hover {
+	text-decoration:none
+}
+.cat-sidebar .recommend-dl .intro {
+	height:67px;
+	line-height:2;
+	overflow:hidden;
+}
+.cat-sidebar .news-comm {
+	}
+.cat-sidebar .news-comm li {
+	width:100%;
+	margin:6px 0;
+}
+.news-col {
+	}
+.news-col .cat-container .news-comm {
+	margin-bottom:13px;
+}
+.news-col .cat-container .news-comm li {
+	margin-bottom:10px;
+}
+.news-col .cat-container .news-comm a {
+	}
+.news-col .cat-container .news-comm .time {
+	}
+.news-col .cat-container .news-comm .time.today {
+	color:#E11;
+}
+.news-col .cat-container .news-col {
+	float:left;
+	margin-right:20px;
+}
+.news-col .cat-container .news-col .news-comm {
+	float:none;
+	margin-right:0;
+	margin-bottom:23px;
+}
+.news-col .cat-sidebar .recommend-dl {
+	margin-bottom:9px;
+}
+.news-col .cat-sidebar .news-comm li {
+	margin:0 0 7px;
+}
+.soft-col {
+	}
+.soft-col .cat-container .title {
+	margin-bottom:15px;
+}
+.soft-col .cat-container .title .ico {
+	height:12px;
+	background-position:0 -12px;
+}
+.qqsource-col {
+	}
+.qqsource-col .cat-container .title .ico {
+	background-position:0 -26px;
+}
+.qqsource-col .cat-sidebar .recommend-dl {
+	margin-bottom:20px;
+}
+.imgBox {
+	height:130px;
+	padding:6px;
+	border:1px #cecece solid;
+	text-align:left;
+}
+.imgBox .a {
+	float:left;
+	min-width:100px;
+	margin:5px;
+	text-align:center;
+}
+.imgBox .a img {
+	height:100px;
+	border:1px #e6e5e5 solid;
+	padding:1px;
+	margin-bottom:3px;
+}
+.imgBox .a div {
+	width:110px;
+	height:14px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.indexphoto dd {
+	width:1087px;
+	min-height:136px;
+	padding:5px 5px 5px 5px;
+	border-top:none;
+}
+.indeximgbox ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.indeximgbox ul li {
+	float:left;
+	width:166px;
+	text-align:center;
+	margin:0 5px;
+	padding-left:5px;
+}
+.indeximgbox ul li .a {
+	border:1px #e6e5e5 solid;
+	background:#fafafa;
+	padding:1px;
+	width:150px;
+	height:126px;
+	overflow:hidden;
+}
+.indeximgbox ul li .a img {
+	width:150px;
+}
+.indeximgbox ul li .b {
+	padding:10px 0 3px 0;
+	line-height:1.2;
+	font-size:12px;
+	height:25px;
+	overflow:hidden;
+}
+.indeximgbox ul li .b a,.imgBox .a div {
+	color:#135E93;
+}
+.navBox {
+	margin:10px 0 5px 0;
+}
+.navBtn {
+	border:#ccc 1px solid;
+	color:#686868;
+	padding:3px 8px 3px 8px;
+	float:left;
+	margin:0px 2px;
+	background-color:#f9f9f9;
+	height:20px;
+	line-height:20px;
+}
+.navBtnPointer {
+	border:#ccc 1px solid;
+	color:#686868;
+	padding:3px 8px 3px 8px;
+	float:left;
+	margin:0px 2px;
+	background-color:#f9f9f9;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+}
+.fontNav_2 {
+	font-size:12px;
+	color:#000000;
+	font-family:����;
+}
+.fontNav_2d {
+	font-size:12px;
+	color:#dbdbdb;
+	font-family:����;
+}
+.fontNav2_2 {
+	font-size:12px;
+	color:#f21111;
+	font-family:����;
+}
+.page-main-list .col-choose {
+	padding:15px;
+	margin-bottom:20px;
+	background-color:#fcfcfc;
+}
+.page-main-list .col-choose a {
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	padding:8px 16px;
+	margin:0 5px 5px 0;
+	color:#000;
+}
+.page-main-list .col-choose .cur,.page-main-list .col-choose a:hover {
+	color:#fff;
+	background-color:#036fa4;
+	text-decoration:none;
+	border-radius:3px;
+}
+.page-main-list .col-choose .cur:after {
+	position:absolute;
+	z-index:2;
+	left:50%;
+	top:100%;
+	width:0;
+	height:0;
+	margin-left:-4.5px;
+	border-width:5px 4.5px 0;
+	border-style:solid;
+	border-color:#036fa4 transparent transparent;
+	content:"";
+}
+.page-main-list .page-nav {
+	margin-bottom:30px;
+}﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+public partial class Ad_ggfb : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["name"] == null)
+        {
+            Response.Write("<script>alert('请先登录！');window.location.href='Login.aspx'</script>");
+        }
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        fbgg();
+    }
+    #region 发布公告
+    public void fbgg()
+    {
+        string mystr = System.Configuration.ConfigurationManager.ConnectionStrings["hulu"].ToString();
+        SqlConnection conn = new SqlConnection();
+        conn.ConnectionString = mystr;
+        try
+        {
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "INSERT INTO gonggao(ggbt,ggnr,ggsj) values('" + this.TextBox1.Text.Trim() + "','" + this.TextBox2.Text.Trim() + "','" + DateTime.Now.ToLocalTime().ToString() + "')";
+            cmd.Connection = conn;
+            cmd.ExecuteNonQuery();
+            Response.Write("<script>alert('发布成功！')</script>");
+
+        }
+        catch
+        {
+            Response.Write("<script>alert('发布失败，请重试！')</script>");
+        }
+        finally
+        {
+            conn.Close();
+        }
+    }
+    #endregion
+}                                                   .down-page-content .drive-comm .meta {
+	font-size:14px;
+	color:#999;
+}
+.down-page-content .drive-comm.http .list a {
+	line-height:40px;
+	border:1px solid #c3c3c3;
+	background-image:url(../xiaoyewl_Image/black-downico.png);
+	background-color:transparent;
+	border-radius:0;
+	color:#000;
+}
+.down-page-content .drive-comm.baidu .list a {
+	background-color:#2a7ec3;
+	border-bottom:4px solid #165c95;
+}
+.down-page-content .drive-comm.c360 .list a {
+	background-color:#2aad38;
+	border-bottom:4px solid #207a3a;
+}
+.down-page-content .drive-comm.xunlei .list a {
+	background-color:#f59d16;
+	border-bottom:4px solid #bf7818;
+}
+.down-page-content .drive-comm.other .list a {
+	background-color:#c10404;
+	border-bottom:4px solid #850202;
+}
+.down-page-content .cinfo {
+	padding-top:15px;
+	border-top:1px solid #c4c4c4;
+	font-size:14px;
+	color:#666;
+}
+.down-page-content .cinfo p {
+	margin:5px 0 10px;
+}
+.page-breadcrumb {
+	color:#666;
+	margin:30px 0 0;
+	border-bottom:1px solid #c4c4c4;
+	padding-bottom:15px;
+}
+.page-breadcrumb b {
+	color:#333;
+}
+.page-breadcrumb a {
+	color:#666;
+}
+.page-breadcrumb a:last-child {
+	color:#06557c;
+}
+.page-content {
+	}
+.page-content-intro {
+	float:left;
+	width:740px;
+}
+.page-main-list {
+	width:759px;
+}
+.main-article .content-wrap {
+	padding:30px 20px 30px 20px;
+	margin-bottom:15px;
+	border-bottom:2px solid #0b588c;
+	box-shadow:0 1px 0 #ccc;
+}
+.main-article .title {
+	font-size:24px;
+	color:#222;
+	margin-bottom:15px;
+}
+.main-article .meta {
+	color:#666;
+	margin-bottom:25px;
+}
+.main-article .meta .ico,.time-count-down .ico,.down-url-wrap .ico,.main-article .down-url-wrap .sbtn .ico,.main-article .comment-div .ctitle .ico,.main-article .commentrespond .zsmiley .ico,.main-article .comment-quickreply-item .zsmiley .ico,.singlepage-scroll-item a,.main-article .share-div .digg .sbtn .ico,.main-article .share-div .digg .info .handico {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:14px;
+	height:11px;
+	margin-right:5px;
+	background:url(../xiaoyewl_Image/meta-ico.png) no-repeat;
+}
+.main-article .meta .time {
+	}
+.main-article .meta .author {
+	margin-left:15px;
+}
+.main-article .meta .author .ico {
+	width:11px;
+}
+.main-article .meta .author a {
+	color:#2c3fb0;
+	text-decoration:underline;
+}
+.main-article .meta .view {
+	margin-left:15px;
+}
+.main-article .meta .view .ico {
+	width:10px;
+	height:6px;
+	background-position:0 -13px;
+	vertical-align:2px;
+}
+.main-article .meta .view b {
+	font-weight:400;
+	color:#2c3fb0;
+	margin:0 5px;
+}
+.main-article .meta .comment {
+	margin-left:15px;
+}
+.main-article .meta .comment .ico {
+	background-position:0 -22px;
+}
+.main-article .meta .comment b {
+	font-weight:400;
+	color:#2c3fb0;
+	margin-right:5px;
+}
+.main-article .content-intro {
+	font-size:14px;
+}
+.main-article .content-intro a {
+	color:#2c3fb0;
+}
+.main-article .content-intro h1 {
+	padding:3px 10px;
+	font-size:20px;
+	color:#fff;
+	background-color:#0b588c;
+}
+.main-article .content-intro h2 {
+	padding:3px 10px;
+	font-size:18px;
+	color:#444;
+	background-color:#d6d6d6;
+}
+.main-article .content-intro blockquote {
+	border:1px solid #e9e9e9;
+	border-left:4px solid #0b588c;
+	font-size:14px;
+	color:#0b588c;
+	background-color:#fff;
+}
+.main-article .content-intro img {
+	max-width:100%;
+	height:auto;
+}
+.main-article .time-count-down {
+	margin:15px 0 20px;
+	font-size:20px;
+	color:#222;
+}
+.main-article .time-count-down .ico {
+	width:18px;
+	height:18px;
+	background-position:0 -53px;
+	visibility:-3px;
+}
+.main-article .time-count-down b {
+	color:#d00000;
+	font-weight:400;
+}
+.main-article .time-count-down .tm {
+	color:#cc1b1b;
+	margin:0 5px;
+}
+.main-article .time-count-down .jtime {
+	margin:0 2px;
+}
+.main-article .time-count-down .jtime .dd {
+	color:#cc1b1b;
+	margin:0 5px;
+}
+.main-article .time-count-down .jtime .hh-1,.main-article .time-count-down .jtime .mm-1,.main-article .time-count-down .jtime .ss-1 {
+	color:#cc1b1b;
+	margin-left:5px;
+}
+.main-article .time-count-down .jtime .hh-2,.main-article .time-count-down .jtime .mm-2,.main-article .time-count-down .jtime .ss-2 {
+	color:#cc1b1b;
+	margin-right:5px;
+}
+.main-article .keyword {
+	margin-bottom:0;
+}
+.main-article .keyword b {
+	color:#525252;
+	font-weight:400;
+}
+.main-article .keyword a {
+	color:#525252;
+	margin-right:6px;
+}
+.main-article .down-url-wrap {
+	margin-bottom:25px;
+}
+.main-article .down-url-wrap .tit {
+	margin-bottom:15px;
+	font-size:14px;
+	color:#0b588c;
+	font-weight:700;
+}
+.main-article .down-url-wrap .ico {
+	width:15px;
+	height:15px;
+	background-position:0 -36px;
+	vertical-align:-2px;
+}
+.main-article .down-url-wrap .sbtn {
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:37px;
+	line-height:37px;
+	padding-left:50px;
+	padding-right:20px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:1px solid #d7d7d7;
+	border-width:1px 1px 4px;
+	font-size:14px;
+	font-weight:700;
+	color:#0b588c;
+	text-decoration:none;
+	-moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+	border-radius:2px;
+}
+.main-article .down-url-wrap .sbtn .ico {
+	position:absolute;
+	z-index:2;
+	left:11px;
+	top:14.5px;
+	width:12px;
+	height:8px;
+	font-size:0;
+	background-position:-63px -166px;
+}
+.main-article .down-url-wrap .sbtn .line {
+	position:absolute;
+	z-index:2;
+	left:32px;
+	top:0;
+	height:37px;
+	width:1px;
+	background-color:#d7d7d7;
+}
+.main-article .down-url-wrap .sbtn:hover {
+	background-color:#0b588c;
+	border-color:#0b588c #0b588c #0b4972;
+	color:#fff;
+}
+.main-article .down-url-wrap .sbtn:hover .ico {
+	background-position:-80px -166px;
+}
+.main-article .down-url-wrap .sbtn:hover .line {
+	background-color:#0b588c;
+}
+.main-article .share-div,.main-article .appraise-div,.main-article .newspage-nav,.main-article .comment-div {
+	padding-top:20px;
+	border-top:1px solid #ccc;
+	margin-top:20px;
+}
+.main-article .newspage-nav {
+	}
+.main-article .newspage-nav p {
+	margin-bottom:10px;
+	font-size:14px;
+}
+.main-article .newspage-nav a {
+	color:#333;
+}
+.main-article .share-div {
+	}
+.main-article .share-div .qqclock {
+	margin-top:13px;
+}
+.main-article .share-div .bshare {
+	margin-top:7px;
+}
+.main-article .share-div .digg {
+	padding-left:30px;
+	font-size:14px;
+}
+.main-article .share-div .digg .info {
+	}
+.main-article .share-div .digg .info .handico {
+	width:18px;
+	height:19px;
+	background-position:-27px -54px;
+	vertical-align:-2px;
+}
+.main-article .share-div .digg .info .num {
+	margin:0﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ad_xggg.aspx.cs" Inherits="Ad_xggg" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>编辑文章</title>
+    <link href="css/style10.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="content_main">
+	<div id="content_title"> </div>
+	<div id="content_body">
+		<div id="right">
+			<div class="right_title">
+				<h2>编辑公告</h2>
+			</div>
+			<div class="right_body">
+				<table class="common_table">
+					<form id="form1" runat="server">
+                    <tr>
+                        <td align="center">搜索公告</td>
+							<td>
+                                <asp:TextBox ID="TextBox1" runat="server" class="form_text" Height="23px" 
+                                    Width="141px" placeholder="输入关键字"></asp:TextBox>
+							&nbsp;
+                                <asp:Button ID="Button3" runat="server" Text="搜索" style="padding:3px" 
+                                    onclick="Button3_Click" CausesValidation="False"/>
+							&nbsp;<asp:Button ID="Button4" runat="server" Text="显示全部" style="padding:3px" 
+                                    onclick="Button4_Click" CausesValidation="False"/>
+							</td>
+                            </tr>
+                        <tr>
+                        <td align="center">&nbsp;</td>
+							<td class="right_body">
+                               
+							    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
+                                    AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="126px" 
+                                    PageSize="2" Width="526px" 
+                                     onrowcommand="GridView1_RowCommand" DataKeyNames="id" Visible="False">
+                                    <Columns>
+                                        <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" 
+                                            ReadOnly="True" SortExpression="id" />
+                                        <asp:BoundField DataField="ggbt" HeaderText="公告标题" SortExpression="ggbt" />
+                                        <asp:BoundField DataField="ggnr" HeaderText="公告内容" 
+                                            SortExpression="ggnr" />
+                                        <asp:BoundField DataField="ggsj" HeaderText="时间" SortExpression="ggsj" />
+                                        <asp:ButtonField ButtonType="Button" CommandName="xuanze" Text="选择" />
+                                    </Columns>
+                                </asp:GridView>
+                               
+							</td>
+                            </tr>
+                            <tr>
+							<td width="80" align="center">标题</td>
+							<td>
+                                <asp:TextBox ID="TextBox2" runat="server" class="form_text" Height="30px" 
+                                    Width="517px"></asp:TextBox>
+							    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" 
+                                    ControlToValidate="TextBox2" ErrorMessage="标题不能为空" ForeColor="Red"></asp:RequiredFieldValidator>
+							</td>
+						</tr>
+                        <tr>
+							<td align="center">内容</td>
+							<td>
+                                <asp:TextBox ID="TextBox3" runat="server" class="form_text" Height="230px" 
+                                    TextMode="MultiLine" Width="516px"></asp:TextBox>
+							&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
+                                    ControlToValidate="TextBox3" ErrorMessage="内容不能为空" ForeColor="Red"></asp:RequiredFieldValidator>
+                            </td>
+						</tr>
+                        
+							<td align="center">&nbsp;</td>
+							<td>
+				<asp:Button ID="Button1" runat="server" Text="确认修改" class="form_submit" 
+                                    style="background:url(img/submit_button.jpg) no-repeat;" 
+                                    onclick="Button1_Click" />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<asp:Button ID="Button2" runat="server" Text="删除文章" class="form_submit" 
+                                    style="background:url(img/submit_button.jpg) no-repeat;" 
+                                    onclick="Button2_Click" />
+							</td>
+						</tr>
+					</form>
+				</table>
+			</div>
+			<div class="right_bottom"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="content_bottom"></div>
+</div>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+        ConnectionString="<%$ ConnectionStrings:hulu %>" 
+        SelectCommand="SELECT * FROM [gonggao]">
+    </asp:SqlDataSource>
+</body>
+</html>
+                                                                                                                       Type="String" />
+        </SelectParameters>
+    </asp:SqlDataSource>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                        mentlist .comment-author .vipgroup-2 {
+	color:#cc1b1b;
+}
+.main-article .commentlist .comment-author .floor {
+	float:right;
+	color:#999;
+}
+.main-article .commentlist .comment-author .floor b {
+	margin-right:5px;
+	color:#444;
+	font-weight:700;
+	font-style:italic;
+	font-family:arial;
+}
+.main-article .commentlist .comment-text {
+	margin-bottom:20px;
+	color:#444;
+}
+.main-article .commentlist .comment-meta {
+	color:#666;
+}
+.main-article .commentlist .comment-meta i {
+	font-style:normal;
+	font-family:"\5b8b\4f53",Arial;
+}
+.main-article .commentlist .comment-meta .time {
+	}
+.main-article .commentlist .comment-meta .devices {
+	margin-left:10px;
+}
+.main-article .commentlist .comment-meta .devices b {
+	margin-left:5px;
+	font-weight:400;
+	color:#3a85fd;
+}
+.main-article .commentlist .comment-meta .address {
+	padding-left:10px;
+	border-left:1px solid #d9d9d9;
+	margin-left:10px;
+	color:#3a85fd;
+}
+.main-article .commentlist .comment-meta .sbtn {
+	float:right;
+}
+.main-article .commentlist .comment-meta .fd-btn {
+	margin-right:15px;
+}
+.main-article .commentlist .comment-meta .sbtn .reply-btn {
+	}
+.main-article .commentlist .comment-meta .sbtn .reply-btn:hover {
+	color:#3c4bd5;
+}
+.main-article .commentlist .ecomment {
+	padding:3px;
+	border:1px solid #b1b1b1;
+	background-color:#f5f5f5;
+}
+.main-article .commentlist .ecomment .ecommentauthor {
+	color:#666;
+}
+.main-article .commentlist .ecomment .name {
+	font-weight:700;
+	color:#32a5ea;
+}
+.main-article .commentlist .ecomment .ecommenttext {
+	color:#444;
+}
+.main-article .commentpage {
+	margin:30px 0;
+	text-align:center;
+}
+.main-article .commentpage a,.main-article .commentpage span {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:24px;
+	line-height:24px;
+	padding:0 8px;
+	font-size:14px;
+	color:#4c4c4c;
+	vertical-align:middle;
+	border-radius:4px;
+}
+.main-article .commentpage a:hover,.main-article .commentpage .cur {
+	text-decoration:none;
+	color:#fff;
+	background-color:#0b68a9;
+	box-shadow:0 -2px 0 #045086 inset;
+}
+.main-article .commentrespond {
+	padding:30px 20px 25px 30px;
+	margin:30px 0 10px;
+	background-color:#efefef;
+}
+.main-article .commentrespond .item {
+	}
+.main-article .commentrespond .author-avatar {
+	float:left;
+	width:70px;
+	height:70px;
+	margin-right:25px;
+	border-radius:50%;
+}
+.main-article .commentrespond .author-avatar img {
+	border-radius:50%;
+}
+.main-article .commentrespond .zinput {
+	float:left;
+	width:255px;
+	height:43px;
+	line-height:43px;
+	paddin﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+public partial class Ad_xggg : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["name"] == null)
+        {
+            Response.Write("<script>alert('请先登录！');window.location.href='Login.aspx'</script>");
+        }
+    }
+    protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        if (e.CommandName == "xuanze")
+        {
+            /* int k = Convert.ToInt32(e.CommandArgument);
+             this.Label1.Text = k.ToString();
+           string id = this.GridView1.DataKeys[k].Value.ToString();
+            Session["id"] = id;
+             chaxun(id);*/
+
+            int k = Convert.ToInt32(e.CommandArgument);
+            string Uid = this.GridView1.DataKeys[k].Value.ToString();
+            chaxun(Uid);
+        }
+    }
+    #region 查询
+    public void chaxun(string id)
+    {
+
+        string mystr = System.Configuration.ConfigurationManager.ConnectionStrings["hulu"].ToString();
+        SqlConnection conn = new SqlConnection();
+        conn.ConnectionString = mystr;
+        try
+        {
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            // cmd.CommandText = "select * from wenzhang where biaoti like'%" +this.TextBox1.Text.Trim()+ "%'";
+            cmd.CommandText = "select * from gonggao where id ='" + id.ToString() + "'";
+            cmd.Connection = conn;
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                this.TextBox2.Text = dr["ggbt"].ToString().Trim();
+                this.TextBox3.Text = dr["ggnr"].ToString().Trim();
+                dr.Close();
+            }
+            else
+            {
+                Response.Write("<script>alert('公告不存在！')</script>");
+                dr.Close();
+            }
+
+        }
+        catch
+        {
+            Response.Write("<script>alert('查询失败，请重试！')</script>");
+
+        }
+        finally
+        {
+            conn.Close();
+        }
+
+    }
+    #endregion
+
+    #region 确认修改
+    public void querenxiugai()
+    {
+        string mystr = System.Configuration.ConfigurationManager.ConnectionStrings["hulu"].ToString();
+        SqlConnection conn = new SqlConnection();
+        conn.ConnectionString = mystr;
+        try
+        {
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "update gonggao set ggnr='" + this.TextBox3.Text.Trim() + "',ggsj='" + DateTime.Now.ToLocalTime().ToString() + "' where ggbt='" + this.TextBox2.Text.Trim() + "'";
+            cmd.Connection = conn;
+            cmd.ExecuteNonQuery();
+            Response.Write("<script>alert('修改成功！')</script>");
+
+        }
+        catch
+        {
+            Response.Write("<script>alert('修改失败，请重试！')</script>");
+        }
+        finally
+        {
+            conn.Close();
+        }
+
+
+
+    }
+    #endregion
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        querenxiugai();
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        this.GridView1.Visible = true;
+        string strSQL;
+        strSQL = "select * from gonggao where ggbt like '%" + this.TextBox1.Text.Trim() + "%'";
+        this.SqlDataSource1.SelectCommand = strSQL;
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        shanchuwenzhang();
+    }
+    #region 删除文章
+    public void shanchuwenzhang()
+    {
+        if (this.TextBox2.Text != null)
+        {
+            string mystr = System.Configuration.ConfigurationManager.ConnectionStrings["hulu"].ToString();
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = mystr;
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = "DELETE from gonggao where ggbt='" + this.TextBox2.Text.Trim() + "'";
+                cmd.Connection = conn;
+                cmd.ExecuteNonQuery();
+                Response.Write("<script>alert('删除成功！')</script>");
+
+            }
+            catch
+            {
+                Response.Write("<script>alert('删除失败，请重试！')</script>");
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        else
+            Response.Write("<script>alert('请选择要删除的文章！')</script>");
+
+    }
+    #endregion
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        this.SqlDataSource1.SelectCommand = "select * from gonggao";
+        this.GridView1.DataBind();
+    }
+}                                                                                                                                                
+	color:#006b9c;
+}
+.page-content-sidebar .hot-comment .list .intro {
+	margin-bottom:15px;
+	color:#666;
+}
+.page-content-sidebar .hot-comment .list .meta {
+	color:#a6a6a6;
+}
+.page-content-sidebar .hot-comment .list .sbtn {
+	float:right;
+}
+.page-content-sidebar .hot-comment .list .sbtn a,.main-article .commentlist .comment-meta .sbtn a {
+	color:#a6a6a6;
+}
+.page-content-sidebar .hot-comment .list .zc-btn,.main-article .commentlist .comment-meta .zc-btn {
+	margin-right:15px;
+}
+.page-content-sidebar .hot-comment .list .zc-btn:hover,.main-article .commentlist .comment-meta .zc-btn:hover {
+	color:#d80101;
+}
+.page-content-sidebar .hot-comment .list .fd-btn,.main-article .commentlist .comment-meta .fd-btn {
+	}
+.page-content-sidebar .hot-comment .list .fd-btn:hover,.main-article .commentlist .comment-meta .fd-btn:hover {
+	color:#000;
+}
+.page-content-sidebar .hot-comment .list .time {
+	}
+.iqshwad-ad-r {
+	width:300px;
+	overflow:hidden;
+}
+.replyBox,.markBox {
+	float:left;
+	width:740px;
+	margin:0 8px 8px 0;
+}
+.replyBox dl,.markBox dl {
+	}
+.replyBox dt,.markBox dt {
+	background:url(../xiaoyewl_Image/reply.gif) no-repeat;
+	height:30px;
+	line-height:32px;
+	overflow:hidden;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-indent:12px;
+	_padding-left:12px;
+	color:#bf3131;
+}
+.replyBox dt a,.markBox dt a {
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+}
+.replyBox dd,.markBox dd {
+	width:740px;
+	min-height:80px;
+	padding:5px 5px 5px 5px;
+	overflow:hidden;
+	border-top:none;
+}
+.replyBox ul {
+	margin:0px auto;
+	text-align:center;
+}
+.replyBox li .username {
+	color:#000000;
+}
+.replyBox li .note {
+	text-indent:2em;
+	word-break:break-all;
+}
+.replyBox li .admin {
+	word-break:break-all;
+}
+.replyBox li .username img {
+	margin-right:2px;
+}
+.replyBox li .admin {
+	color:red;
+	padding:3px;
+}
+.replyBox .replyBtn {
+	width:76px;
+	height:21px;
+	background:url(../xiaoyewl_Image/replyBtn.gif);
+}
+.replyBox #replyWrite {
+	text-align:center;
+}
+.markBox li {
+	text-align:left;
+	float:left;
+	width:312px;
+	padding:0 13px 0 0;
+	margin-left:3px;
+}
+.newsFullBox {
+	width:960px;
+}
+.newsFullBox dt {
+	width:960px;
+	background:url(../xiaoyewl_Image/replyFull.gif) no-repeat;
+}
+.newsFullBox dd {
+	width:948px;
+}
+.markFullBox li {
+	width:284px;
+}
+.button {
+	border:none;
+	cursor:pointer;
+}
+.comiis_pplmimg li {
+	padding-left:17px;
+	float:left;
+	padding:10px 0 0 5px;
+	overflow:hidden;
+}
+.comiis_pplmimg li a img {
+	width:150px;
+	height:48px;
+	border:1px solid #ccc;
+	display:block;
+}
+.gotop {
+	position:fixed;
+	bottom:195px;
+	right:30px;
+	width:46px;
+	z-index:999;
+}
+.gotop a {
+	display:block;
+	width:46px;
+	height:46px;
+	margin-bottom:10px;
+	background-image:url(../xiaoyewl_Image/go-top.png);
+}
+.gotop a:last-child {
+	margin-bottom:0;
+}
+.gotop .go {
+	background-position:0 -100px;
+}
+.gotop .go:hover {
+	background-position:0 -150px;
+}
+.font1_1 {
+	color:#000000;
+}
+a.font1_1:hover {
+	color:#535253;﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="youdaikaifa.aspx.cs" Inherits="youdaikaifa" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <h1 align="center">有待开发，敬请期待！</h1></div>
+    </form>
+</body>
+</html>
+                absolute;
+	clip:rect(1px 1px 1px 1px);
+	clip:rect(1px,1px,1px,1px);
+	padding:0;
+	border:0;
+	height:1px;
+	width:1px;
+	overflow:hidden;
+}
+.grid_11 h2 {
+	font-size:100%;
+	font-weight:normal;
+}
+.website_guide_list {
+	margin-bottom:12px;
+}
+.vip_mod_footer_list {
+	border-top:1px solid #e5e4e4;
+	border-bottom:1px solid #e5e4e4;
+	padding-bottom:10px;
+}
+.clearfix {
+	zoom:1;
+}
+.website_guide_list li {
+	cursor:pointer;
+}
+.vip_mod_footer_list li {
+	float:left;
+	position:relative;
+	width:242px;
+	background-image:url(../xiaoyewl_Image/bg_vertical_dotline.png);
+	background-repeat:repeat-y;
+	background-position:right top;
+	margin:20px 15px 12px 15px;
+	text-align:left;
+}
+.icon_vip_qq {
+	background-position:-200px 0;
+}
+.icon_vip_bbs {
+	background-position:0 0;
+}
+.icon_vip_weibo {
+	background-position:-40px 0;
+}
+.icon_vip_qzone {
+	background-position:-80px 0;
+}
+.icon_vip_rss {
+	background-position:-120px 0;
+}
+.icon_vip_weixin {
+	background-position:-160px 0
+}
+.icon_vip_bbs,.icon_vip_qq,.icon_vip_qzone,.icon_vip_rss,.icon_vip_weibo,.icon_vip_weixin {
+	background-image:url(../xiaoyewl_Image/sprites_footer.png);
+	background-repeat:no-repeat;
+	width:32px;
+	height:35px;
+}
+.foot-fl {
+	float:left;
+}
+.guide_content {
+	width:160px;
+	height:55px;
+	margin:0 0 0 10px;
+}
+.vip_mod_footer_list h3 {
+	color:#57473f;
+	font-size:12px;
+	font-weight:normal;
+}
+.vip_mod_footer_list p {
+	color:#999;
+}
+.vip_mod_footer_list .last {
+	background:0;
+}
+.footer_copyright {
+	padding:25px 0;
+	text-align:center;
+}
+.footer_copyright a,.footer_copyright b,.footer_copyright p {
+	color:#999;
+}
+.indeximgbox2 ul li {
+	float:left;
+	margin:0 5px;
+	padding-left:5px;
+}
+.indeximgbox2 ul li a {
+	color:#135E93;
+}
+div#post_content h2 {
+	font-size:16px;
+	font-weight:400;
+	padding:10px 20px 9px 20px;
+	line-height:18px;
+	border-left:4px solid #363636;
+	background-color:#f3f3f3;
+	background:rgba(240,240,240,.5);
+	transition:all .4s ease-in-out;
+}
+#download {
+	float:left;
+	width:100px;
+	height:40px;
+	color:#fff;
+	margin:0 0 0 20px;
+	padding-left:40px;
+}
+div#download {
+	background:url(../xiaoyewl_Image/download.png) #919191;
+	margin-top:1px;
+	border-radius:3px;
+	margin:20px;
+}
+#download a {
+	color:#fff;
+	line-height:40px;
+	font-size:16px;
+	text-decoration:none;
+	padding-left:10px;
+	display:block;
+}
+.clear {
+	clear:both;
+	height:0px;
+	margin:0;
+	padding:0;
+	font-size:0;
+	max-height:0;
+	overflow:hidden;
+}
+.listcon li {
+	text-align:left;
+	float:left;
+	width:335px;
+	padding:0 13px 0 0;
+	margin-left:3px;
+	line-height:2;
+	overflow:hidden;
+	height:25px;
+	padding-left:16px;
+}
+.cat-container .news-comm-soft {
+	float:left;
+	margin:5px 20px 0 0;
+}
+.cat-container .news-comm-soft li {
+	width:338.5px;
+	margin-bottom:5px;
+	height:22px;
+	line-height:22px;
+	background:url(../xiaoyewl_Image/icon3x3.gif) no-repeat 0 7px;
+	margin:0;
+	float:none;
+	display:block;
+	overflow:hidden;
+	padding-left:10px;
+}
+.cat-container .news-comm-soft .time {
+	float:right;
+	margin-left:15px;
+	color:#999;
+}
+.cat-container .news-comm-soft .time.today {
+	color:#E11;
+}
+.cat-container .news-comm2 li {
+	width:338.5px;
+	height:22px;
+	line-height:22px;
+	background:url(../xiaoyewl_Image/icon3x3.gif) no-repeat 0 7px;
+	overflow:hidden;
+	padding-left:10px;
+	margin-bottom:5px;
+}
+.cat-container .news-comm2 {
+	margin:0 20px 0 0;
+}
+.down-d-wrap {
+	margin:0px 0px 15px;
+	padding:0px 0px 0px 0px;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:#0B588C;
+	box-shadow:#CCCCCC 0px 1px 0px;
+	color:#333333;
+	font-family:'helvetica neue','hiragino sans gb',stheiti,Arial,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;
+	white-space:normal;
+	background-color:#FFFFFF;
+}
+.down-d-wrap .typo {
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+}
+.down-d-wrap .keyword {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.down-url-wrap .sbtn .ico {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:14px;
+	height:11px;
+	margin-right:5px;
+	background:url(../xiaoyewl_Image/xiazai.png) no-repeat;
+}
+.down-url-wrap {
+	margin-bottom:25px;
+}
+.down-url-wrap .tit {
+	margin-bottom:15px;
+	font-size:14px;
+	color:#0b588c;
+	font-weight:700;
+}
+.down-url-wrap-ico {
+	color:#0B588C;
+	font-family:΢���ź�,'Microsoft YaHei',����,SimSun,PMingLiU,Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	line-height:1.2;
+	font-weight:700;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	margin-right:5px;
+	vertical-align:-2px;
+	background-image:url(../xiaoyewl_Image/xiazai.png);
+	background-attachment:initial;
+	background-size:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-position:0px -36px;
+	background-repeat:no-repeat;
+}
+.down-url-wrap-n {
+	color:#0B588C;
+	font-size:14px;
+	font-weight:700;
+	line-height:1.5;
+}
+.col-choose li {
+	list-style:none;
+	float:left;
+}
+.down-url-wrap .sbtn {
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:37px;
+	line-height:37px;
+	padding-left:50px;
+	padding-right:20px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:1px solid #d7d7d7;
+	border-width:1px 1px 4px;
+	font-size:14px;
+	font-weight:700;
+	color:#0b588c;
+	text-decoration:none;
+	-moz-transition:none;
+	-webkit-transition:none;
+	-o-transition:none;
+	transition:none;
+	border-radius:2px;
+}
+.down-url-wrap .sbtn .ico {
+	position:absolute;
+	z-index:2;
+	left:11px;
+	top:14.5px;
+	width:12px;
+	height:8px;
+	font-size:0;
+	background-position:-63px -166px;
+}
+.down-url-wrap .sbtn .line {
+	position:absolute;
+	z-index:2;
+	left:32px;
+	top:0;
+	height:37px;
+	width:1px;
+	background-color:#d7d7d7;
+}
+.down-url-wrap .sbtn:hover {
+	background-color:#0b588c;
+	border-color:#0b588c #0b588c #0b4972;
+	color:#fff;
+}
+.down-url-wrap .sbtn:hover .ico {
+	background-position:-80px -166px;
+}
+.down-url-wrap .sbtn:hover .line {
+	background-color:#0b588c;
+}
+table {
+	display:table;
+	border-collapse:separate;
+	border-spacing:2px;
+	border-color:grey;
+}
+.editShare {
+	width:670px;
+}
+.editShare .d {
+	}
+.editShare .d ul {
+	margin-left:12px;
+}
+.editShare .d li {
+	margin:8px;
+	cursor:pointer;
+	float:left;
+}
+.editShare .d li img {
+	height:50px;
+	margin:5px 0 5px 0;
+}
+.editShare .d .boxBorder {
+	width:15px;
+	height:50px;
+	border:1px #dadada solid;
+	background:url(../xiaoyewl_Image/boxFull.gif);
+}
+.editShare .d .boxBlank {
+	width:100%;
+	height:49px;
+	overflow:hidden;
+	background:#ffffff;
+}
+.editShare .d .upDown {
+	margin:auto;
+	text-align:center;
+	width:404px;
+}
+.editShare .d .upDown .up {
+	float:left;
+	width:192px;
+	height:48px;
+	background:url(../xiaoyewl_Image/vote1_1.gif);
+	cursor:pointer;
+}
+.editShare .d .upDown .up2 {
+	float:left;
+	width:192px;
+	height:48px;
+	background:url(../xiaoyewl_Image/vote1_2.gif);
+	cursor:pointer;
+}
+.editShare .d .upDown .upa {
+	float:left;
+	font-size:14px;
+	color:#cc3300;
+	font-weight:bold;
+	padding:8px 0 0 30px;
+}
+.editShare .d .upDown .upb {
+	float:left;
+	font-size:14px;
+	color:#d5665f;
+	padding:8px 0 0 6px;
+}
+.editShare .d .upDown .upc {
+	float:left;
+	width:90px;
+	padding:0px 0 0 11px;
+	line-height:12px;
+}
+.editShare .d .upDown .upd {
+	float:left;
+	width:100px;
+	height:7px;
+	background:#e37f24;
+	overflow:hidden;
+}
+.editShare .d .upDown .upe {
+	float:left;
+	padding:0px 0 0 25px;
+	line-height:12px;
+}
+.editShare .d .upDown .down {
+	float:left;
+	width:192px;
+	height:48px;
+	background:url(../xiaoyewl_Image/vote2_1.gif);
+	cursor:pointer;﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class youdaikaifa : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+}                                                                                                                                                                                                                                     .editShare .d .upDown .downd {
+	float:left;
+	width:100px;
+	height:7px;
+	background:#689acc;
+	overflow:hidden;
+}
+.editShare .d .upDown .downe {
+	float:left;
+	padding:0px 0 0 25px;
+	line-height:12px;
+}
+.uu-news-comm .news-comm li {
+	margin-bottom:10px;
+	width:349.5px;
+	float:none;
+	list-style:none;
+	height:18px;
+	line-height:18px;
+	overflow:hidden;
+}
+.uu-news-comm .time {
+	float:right;
+	margin-left:15px;
+}
+.uu-news-comm .time.today {
+	color:#E11;
+}
+.uu-news-comm i {
+	font-family:"\5b8b\4f53";
+	font-size:14px;
+	color:#999;
+}
+.uu-news-comm a {
+	color:#135E93;
+}
+.uu-news-comm .news-col2 {
+	float:left;
+	margin-right:20px;
+}
+.uu-news-comm span {
+	margin-bottom:13px;
+	list-style:none;
+}
+.uu-news-comm {
+	margin:0 -20px -25px 0;
+}
+/** ����ͼƬ��Ӱ��ʼ */
+a:hover img {
+	filter:alpha(opacity=75);
+	opacity:0.75;
+	transition:all 0.2s ease 0s;
+}
+p:hover img {
+	filter:alpha(opacity=75);
+	opacity:0.75;
+	transition:all 0.2s ease 0s;
+}
+/** ����ͼƬ��Ӱ���� */
+
+body{background:#ffffff url(../xiaoyewl_Image/bg2.jpg) 50% 0;}
+
+/** �����б���ʽ��ʼ */
+.pageBox{ padding: 14px 0px; height: 32px; text-align: center;}
+
+.pageUl{ overflow: hidden; width: 680px; margin: 0px auto;}
+.pageUl li{float: left;  height: 30px; line-height: 30px; border:1px solid #999999;
+    color: #333333; margin-right: 5px; cursor:pointer; padding:0px 3px;}
+.pageUl li a{display:inline-block; padding: 0px 8px; color:#333333;}
+.pageUl li:hover,.pageUl .thisclass{ background-color: #00aaff; color: #ffffff; display: block;
+    border-color: #00aaff;}
+.pageUl li:hover a{ color:#ffffff; text-decoration: none;}
+.pageUl .thisclass{ padding:0px 10px;}
+/** �����б���ʽ���� */                                                             
